@@ -48,7 +48,7 @@ def get_task_list(
         params['status'] = status
 
     # 发起请求
-    response = make_request('/sms/task/list', params, api_key=api_key)
+    response = make_request('/agent/sms/task/list', params, api_key=api_key)
 
     # 处理响应
     if response.get('code') == 0:

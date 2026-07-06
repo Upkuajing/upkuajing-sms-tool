@@ -47,7 +47,7 @@ def send_sms(
         return {"success": False, "error": "缺少必填参数：phones（手机号列表）"}
 
     # 发起请求
-    response = make_request('/sms/send', params, api_key=api_key)
+    response = make_request('/agent/sms/send', params, api_key=api_key)
 
     # 处理响应
     if response.get('code') == 0:

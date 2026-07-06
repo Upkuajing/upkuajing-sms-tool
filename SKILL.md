@@ -1,7 +1,7 @@
 ---
 name: upkuajing-sms-tool
 description: Official skill for upkuajing (跨境魔方). SMS tool API for sending SMS and tracking SMS task status. Includes SMS sending, task list, and task record list APIs.
-metadata: {"version":"1.0.0","homepage":"https://www.upkuajing.com","clawdbot":{"emoji":"📱","requires":{"bins":["python"],"env":["UPKUAJING_API_KEY"]},"primaryEnv":"UPKUAJING_API_KEY"}}
+metadata: {"version":"1.0.1","homepage":"https://www.upkuajing.com","clawdbot":{"emoji":"📱","requires":{"bins":["python"],"env":["UPKUAJING_API_KEY"]},"primaryEnv":"UPKUAJING_API_KEY"}}
 ---
 
 # UpKuaJing SMS Tool
