@@ -1,7 +1,7 @@
 ---
 name: upkuajing-sms-tool
-description: Official skill for upkuajing (跨境魔方). SMS tool API for sending SMS and tracking SMS task status. Includes SMS sending, task list, and task record list APIs.
-metadata: {"version":"1.0.1","homepage":"https://www.upkuajing.com","clawdbot":{"emoji":"📱","requires":{"bins":["python"],"env":["UPKUAJING_API_KEY"]},"primaryEnv":"UPKUAJING_API_KEY"}}
+description: "Send global bulk SMS with two‑way replies. Monitor delivery status via real‑time reports, boost conversions and run outreach campaigns for cross‑border businesses and exporters.\n\nTrigger: global bulk SMS service, two‑way SMS replies, SMS delivery reports, cross‑border SMS marketing, customer re‑engagement, mass text for exporters"
+metadata: {"version":"1.0.2","homepage":"https://www.upkuajing.com","clawdbot":{"emoji":"📱","requires":{"bins":["python"],"env":["UPKUAJING_API_KEY"]},"primaryEnv":"UPKUAJING_API_KEY"}}
 ---
 
 # UpKuaJing SMS Tool
@@ -182,8 +182,22 @@ Or use: `python scripts/auth.py --price_info` (returns complete pricing for all 
 
 Other UpKuaJing skills you might find useful:
 
+- linkedin-person-search — Search people from the LinkedIn source
+- global-company-person-search — Search people from the global company database
+- linkedin-company-search — Search companies from the LinkedIn source
+- global-company-search — Search companies from the global company database
+- global-company-shareholder — Query shareholder list from the global company database
+- global-company-employee — Query employee list from the global company database
+- global-company-person-colleague — Query colleague list from the global company database
+- global-company-person-alumni — Query alumni list from the global company database
+- global-company-person-experience — Query work experience list from the global company database
+- global-company-person-education — Query education history list from the global company database
+- global-company-person-school-detail — Query school detail from the global company database
 - upkuajing-global-company-people-search — Global company and people search
 - upkuajing-customs-trade-company-search — Search customs trade companies
 - upkuajing-email-tool — Send emails and manage email tasks
 - upkuajing-map-merchants-search — Map-based merchant search
 - upkuajing-contact-info-validity-check — Check contact info validity
+- phone-validity-check — Check phone number validity
+- email-validity-check — Check email address validity
+- domain-validity-check — Check domain validity and security
