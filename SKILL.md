@@ -1,7 +1,7 @@
 ---
 name: upkuajing-sms-tool
 description: "Send global bulk SMS with two‑way replies. Monitor delivery status via real‑time reports, boost conversions and run outreach campaigns for cross‑border businesses and exporters.\n\nTrigger: global bulk SMS service, two‑way SMS replies, SMS delivery reports, cross‑border SMS marketing, customer re‑engagement, mass text for exporters"
-metadata: {"version":"1.0.2","homepage":"https://www.upkuajing.com","clawdbot":{"emoji":"📱","requires":{"bins":["python"],"env":["UPKUAJING_API_KEY"]},"primaryEnv":"UPKUAJING_API_KEY"}}
+metadata: {"version":"1.0.3","homepage":"https://www.upkuajing.com","clawdbot":{"emoji":"📱","requires":{"bins":["python"],"env":["UPKUAJING_API_KEY"]},"primaryEnv":"UPKUAJING_API_KEY"}}
 ---
 
 # UpKuaJing SMS Tool
